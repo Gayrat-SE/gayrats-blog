@@ -21,7 +21,7 @@ export default function SignIn() {
         script.setAttribute('data-radius', '8');
         script.setAttribute('data-request-access', 'write');
         script.setAttribute('data-userpic', 'false');
-        script.setAttribute('data-callback-url', process.env.NEXTAUTH_URL || 'http://localhost:3000');
+        script.setAttribute('data-callback-url', 'http://127.0.0.1:3000');
         script.async = true;
 
         // Add script to document
